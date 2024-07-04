@@ -88,8 +88,14 @@ export function CreateAccount() {
         </h3>
         <div className="flex flex-col p-2 items-center">
           <div className="flex flex-col p-2 gap-2">
-            <label id="name">Name</label>
+            <label id="name">
+              Name
+              <span className="text-xs text-slate-400 ">
+                (min 4 characters)
+              </span>
+            </label>
             <Input
+              minLength={4}
               empty={!!infoName}
               type="text"
               id="name"
