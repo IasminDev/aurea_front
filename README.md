@@ -1,6 +1,6 @@
 # Aurea – Personal Finance Manager  
 
-Aurea is a React-based personal finance management application that helps users track income and expenses efficiently. The backend for this project is available in the [node-finances](https://github.com/IasminDev/node-finances) repository.  
+Aurea is a React-based personal finance management application that helps users track income and expenses efficiently. The backend for this project is available in the [aurea_back](https://github.com/IasminDev/aurea_back) repository.  
 
 ## Features  
 
@@ -22,7 +22,7 @@ Aurea is a React-based personal finance management application that helps users 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/IasminDev/react-finances.git
+   git clone https://github.com/IasminDev/aurea_front.git
    ```
 2. Navigate to the project directory:  
    ```bash
@@ -32,7 +32,7 @@ Aurea is a React-based personal finance management application that helps users 
    ```bash
    npm install
    ```
-4. Start the backend server (see [node-finances](https://github.com/IasminDev/node-finances) for setup instructions).  
+4. Start the backend server (see [aurea_back](https://github.com/IasminDev/aurea_back) for setup instructions).  
 5. Start the frontend development server:  
    ```bash
    npm run dev
