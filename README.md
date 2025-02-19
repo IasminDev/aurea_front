@@ -1,30 +1,40 @@
-### React Finances
+# Aurea – Personal Finance Manager  
 
-O React Finances é um aplicativo de gestão financeira desenvolvido em React. Este projeto tem como objetivo auxiliar usuários a controlar suas finanças pessoais de maneira simples e eficiente.
+Aurea is a React-based personal finance management application that helps users track income and expenses efficiently. The backend for this project is available in the [node-finances](https://github.com/IasminDev/node-finances) repository.  
 
-#### Funcionalidades
-- **Cadastro de transações:** Adicione novas receitas e despesas.
-- **Visão geral das finanças:** Visualize o saldo total, receitas e despesas em um painel intuitivo.
-- **Filtros e categorias:** Filtre transações por categoria e data para uma análise detalhada.
-- **Interface amigável:** Design moderno e responsivo, garantindo uma experiência de usuário agradável.
+## Features  
 
-#### Tecnologias Utilizadas
-- **React:** Biblioteca principal para construção da interface do usuário.
-- **Styled Components:** Estilização de componentes com CSS-in-JS.
-- **Context API:** Gerenciamento de estado global da aplicação.
-- **Local Storage:** Persistência de dados no navegador.
+- Add, edit, and delete financial transactions.  
+- View total balance and transaction history.  
+- Securely store financial data using a Node.js backend.  
+- Responsive design for an optimized user experience.  
+- State management using React hooks.  
 
-#### Como Executar o Projeto
-1. Clone este repositório:
-   ```sh
+## Technologies Used  
+
+- **React**: JavaScript library for building user interfaces.  
+- **Vite**: Fast build tool for modern web applications.  
+- **JavaScript (ES6+)**: Core programming language.  
+- **CSS**: Styling and layout.  
+- **Node.js (Backend)**: Manages financial data and API endpoints.  
+
+## How to Run the Project  
+
+1. Clone the repository:  
+   ```bash
    git clone https://github.com/IasminDev/react-finances.git
    ```
-2. Instale as dependências:
-   ```sh
+2. Navigate to the project directory:  
+   ```bash
    cd react-finances
+   ```
+3. Install dependencies:  
+   ```bash
    npm install
    ```
-3. Inicie a aplicação:
-   ```sh
-   npm start
+4. Start the backend server (see [node-finances](https://github.com/IasminDev/node-finances) for setup instructions).  
+5. Start the frontend development server:  
+   ```bash
+   npm run dev
    ```
+6. Open the provided local URL in your browser.  
